@@ -12,10 +12,14 @@
   
 >TRIAL : 試行回数  
 >GENERATION : 世代数  
+>POPULATION : 母集団数
 >CHILDREN : 子個体数  
+>OPT_DIST : 最適解の距離
+>DEPTH : 探索するときの深さ
 
 を表しています.
 
 TSPの問題タイプはEUC_2Dのみに対応しています.
 
 実行は第1引数にファイル名を入れてもらえれば大丈夫です.
+ex.)./a.out rat575.tsp
