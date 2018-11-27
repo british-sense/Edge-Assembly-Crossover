@@ -12,10 +12,10 @@
   
 >TRIAL : 試行回数  
 >GENERATION : 世代数  
->POPULATION : 母集団数
+>POPULATION : 母集団数   
 >CHILDREN : 子個体数  
->OPT_DIST : 最適解の距離
->DEPTH : 探索するときの深さ
+>OPT_DIST : 最適解の距離  
+>DEPTH : 探索するときの深さ  
 
 を表しています.
 
