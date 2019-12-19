@@ -1,25 +1,24 @@
-# 枝組み立て交叉(Edge Assembly Crossover : EAX)
+# Edge Assembly Crossover : EAX
 
-巡回セールスマン問題(Traveling Salesman Problem : TSP)を解く遺伝的アルゴリズムを用いた交叉手法です.
+EAX is a crossover of the traveling salesman problem (TSP) used by the genetic algorithm (GA) developed by Nagata.
 
-論文は下記から手にはいります.
+The following paper will be implemented.
 
 [巡回セールスマン問題に対する交叉 : 枝組み立て交叉の提案と評価](https://jsai.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=4807&item_no=1&page_id=13&block_id=23)
+[A Powerful Genetic Algorithm Using Edge Assembly Crossover for the Traveling Salesman Problem](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.1120.0506?journalCode=ijoc)
 
 
   
-各パラメータは
+This code has the following parameters:
   
->TRIAL : 試行回数  
->GENERATION : 世代数  
->POPULATION : 母集団数   
->CHILDREN : 子個体数  
->OPT_DIST : 最適解の距離  
->DEPTH : 探索するときの深さ  
+> TRIAL: trial count.  
+> GENERATION: number of generation.   
+> POPULATION: number of population.     
+> CHILDREN: number of offspring.    
+> OPT_DIST: the distance of optimal solution.  
+> DEPTH: depth of searching.   
 
-を表しています.
+This code can only be used for TSP instance of EUC_2D type.
 
-TSPの問題タイプはEUC_2Dのみに対応しています.
-
-実行は第1引数にファイル名を入れてもらえれば大丈夫です.
-ex.)./a.out rat575.tsp
+Enter the file name as the second argument and execute it.
+ex.) ./a.out rat575.tsp
